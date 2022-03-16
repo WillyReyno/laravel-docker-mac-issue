@@ -12,7 +12,6 @@ services:
       PHP_INI_UPLOAD_MAX_FILESIZE: "50M"
       PHP_INI_XDEBUG__MODE: 'develop,coverage'
       PHP_INI_MAX_EXECUTION_TIME: 120
-      STARTUP_COMMAND_1: composer install
     working_dir: /var/www/html
     volumes:
       - ./:/var/www/html
